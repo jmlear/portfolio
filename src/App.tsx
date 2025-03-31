@@ -1,11 +1,11 @@
 import { useRef } from 'react';
 import './App.css'
-import JoelAvatar from './img/joel_avatar.png'
+import JoelAvatar from './img/joel_headshot.jpg'
 import HomePage from './components/HomePage';
 
 function App() {
-  const hamburgerMenuButton = useRef<HTMLElement>(null);
-  const hamburgerMenu = useRef<HTMLElement>(null);
+  const hamburgerMenuButton = useRef<HTMLDivElement>(null);
+  const hamburgerMenu = useRef<HTMLUListElement>(null);
 
   const toggleHamburgerMenu = () => {
     hamburgerMenu.current?.classList.toggle('hidden');
@@ -32,7 +32,7 @@ function App() {
               <div className="w-6 h-0.5 bg-black"></div>
             </div>
             {/* Opened hamburger menu */}
-            <ul ref={hamburgerMenu} className='hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center uppercase'>
+            <ul ref={hamburgerMenu} className='hidden md:hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center uppercase'>
               <li>Services</li>
               <li>Projects</li>
               <li>Blog</li>
