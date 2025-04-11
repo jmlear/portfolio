@@ -3,13 +3,13 @@ export default function HomePage() {
   return (
     <>
       {/* Floating Left side text */}
-      <div className="static flex flex-col justify-center text-center w-auto md:w-1/3 h-1/2 md:text-left md:h-auto md:absolute md:top-1/3 md:left-5 text-xl sm:text-4xl lg:left-5 xl:left-48 font-bold">
-        <span className="text-gray-600">Joel</span>
+      <div className="static flex flex-col justify-center text-center w-auto md:w-1/3 h-1/2 md:text-left md:h-auto md:absolute md:top-1/3 md:left-5 text-xl sm:text-4xl lg:left-5 font-bold">
+        <span className="text-gray-600">Joel Lear</span>
         <p className="text-red-500">Lead Software Developer</p>
       </div>
       {/* Make div using tailwind css that spans the width of the screen but the text inside stays within the middle 1/3 of the screen and wraps as the screen gets smaller */}
       {/* <div className="w-40 h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 bg-blue-900 rounded-full"></div> */}
-      <div className="h-1/2 md:h-full w-full flex items-center justify-center flex-col gap-5 text-center">
+      <div className="md:h-full w-full flex items-center justify-center flex-col gap-5 text-center">
         <div className="flex flex-col w-60 lg:w-80">
           <h1>Lead Software Developer</h1>
           <p>Experienced, Motivated, Hard working</p>
