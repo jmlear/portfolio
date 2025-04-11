@@ -3,9 +3,9 @@ export default function HomePage() {
   return (
     <>
       {/* Floating Left side text */}
-      <div className="static flex flex-col justify-center text-center h-1/2 md:text-left md:h-auto md:absolute md:top-1/3 md:left-5 text-xl sm:text-4xl lg:left-5 xl:left-48 font-bold">
+      <div className="static flex flex-col justify-center text-center w-auto md:w-1/3 h-1/2 md:text-left md:h-auto md:absolute md:top-1/3 md:left-5 text-xl sm:text-4xl lg:left-5 xl:left-48 font-bold">
         <span className="text-gray-600">Joel</span>
-        <p className="text-red-500">Developer</p>
+        <p className="text-red-500">Lead Software Developer</p>
       </div>
       {/* Make div using tailwind css that spans the width of the screen but the text inside stays within the middle 1/3 of the screen and wraps as the screen gets smaller */}
       {/* <div className="w-40 h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 bg-blue-900 rounded-full"></div> */}
@@ -20,7 +20,7 @@ export default function HomePage() {
       {/* Text bubble on right */}
       <div className="hidden p-5 md:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white h-fit w-1/3">
         <h1 className="text-4xl font-bold text-blue-900">Hi I'm Joel</h1>
-        <p className="text-gray-400">I am results-driven with extensive experience in modernizing legacy systems and integrating advanced frameworks.<br /><br />I am a leader of cross-functional teams and I utilize automation to optimize workflows.<br /><br />I have a strong problem-solving mindset with a commitment to clean, maintainable code.</p>
+        <p className="text-gray-400">I am results-driven with extensive experience in modernizing legacy systems and integrating advanced frameworks.<br /><br />I am a leader of cross-functional teams and I utilize automation to optimize workflows.<br /><br />I am a strong problem-solver with a commitment to clean, maintainable code.</p>
         {/* Make links to LinkedIn, GitHub that open in new tab */}
         {/* Make a container for the two link buttons that puts them in one row */}
         <div className="flex gap-5">

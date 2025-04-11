@@ -20,7 +20,7 @@ function App() {
       <div className="h-screen bg-gradient-to-t from-blue-200 relative">
         <nav className='w-full fixed top-0'>
           <div className='container mx-auto p-5 flex justify-between items-center text-gray-600'>
-            <img className='w-10 h-10 md:w-20 md:h-20 object-cover rounded-full' src={JoelAvatar} />
+            <img className='w-20 h-20 object-cover rounded-full' src={JoelAvatar} />
             {/* Hamburger menu for small screens */}
             <div ref={hamburgerMenuButton} onClick={toggleHamburgerMenu} className='space-y-1 md:hidden cursor-pointer z-1'>
               <div className="w-6 h-0.5 bg-black"></div>
